@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Éclamobile - Esthétique Automobile Mobile</title>
+  <style>
+    :root {
+      --main-bg: #1e1830;
+      --accent: #9b5de5;
+      --accent-light: #c792fa;
+      --text-light: #f0eaff;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--main-bg);
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+      background-color: #241a3a;
+    }
+    header img {
+      max-width: 160px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 12px;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.2em;
+      color: var(--accent);
+    }
+    header p {
+      font-size: 1.1em;
+      color: var(--text-light);
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: #2b2147;
+      border-radius: 12px;
+      padding: 30px 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    }
+    section h2 {
+      color: var(--accent-light);
+      border-bottom: 1px solid var(--accent-light);
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      font-size: 1.8em;
+      text-align: center;
+    }
+    h3 {
+      color: var(--accent);
+      margin-top: 25px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "✔️ ";
+      color: var(--accent-light);
+    }
+    .prices ul li {
+      margin-bottom: 6px;
+    }
+    .sms-button {
+      display: block;
+      width: fit-content;
+      margin: 30px auto 10px;
+      padding: 15px 30px;
+      background-color: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+      text-align: center;
+    }
+    .sms-button:hover {
+      background-color: var(--accent-light);
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+      background-color: #1a1528;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/zVdCFIn.png" alt="Éclamobile Logo">
+    <h1>Éclamobile</h1>
+    <p>Esthétique automobile mobile – Mont-Saint-Grégoire</p>
+    <p>Nettoyage intérieur et extérieur haut de gamme directement chez vous</p>
+  </header>
+
+
+  <section class="prices">
+    <h2>🚗 Nos services et tarifs</h2>
+    <h3>Petites voitures (berlines)</h3>
+    <ul>
+      <li>Détail intérieur complet : 150 $</li>
+      <li>Détail extérieur complet : 150 $</li>
+      <li>Forfait complet intérieur + extérieur : 250 $ <em>(Vous sauvez 17 %)</em></li>
+    </ul>
+    <h3>VUS / Multisegments</h3>
+    <ul>
+      <li>Détail intérieur complet : 170 $</li>
+      <li>Détail extérieur complet : 170 $</li>
+      <li>Forfait complet intérieur + extérieur : 280 $ <em>(Vous sauvez 18 %)</em></li>
+    </ul>
+    <h3>Camions / Minifourgonnettes</h3>
+    <ul>
+      <li>Détail intérieur complet : 180 $</li>
+      <li>Détail extérieur complet : 180 $</li>
+      <li>Forfait complet intérieur + extérieur : 300 $ <em>(Vous sauvez 17 %)</em></li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h2>🧼 Détail intérieur complet</h2>
+    <ul>
+      <li>Aspiration complète (sièges, tapis, coffre)</li>
+      <li>Nettoyage tapis (extraction / brosse)</li>
+      <li>Plastique, vinyle, cuir nettoyés</li>
+      <li>Portes, console, panneaux</li>
+      <li>Vitres intérieures</li>
+      <li>Shampoing sièges et tapis</li>
+      <li>Nettoyage vapeur (recoins, grilles)</li>
+      <li>Enlèvement des poils d’animaux</li>
+      <li>Rafraîchissement des odeurs</li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h2>🚗 Détail extérieur complet</h2>
+    <ul>
+      <li>Pré-lavage mousse</li>
+      <li>Lavage à la main</li>
+      <li>Jantes et pneus (dégraissage, brossage)</li>
+      <li>Application de lustreur pneu</li>
+      <li>Retrait insectes / goudron</li>
+      <li>Décontamination clay mitt</li>
+      <li>Nettoyage vitres extérieures</li>
+      <li>Application de cire ou scellant protecteur</li>
+    </ul>
+  </section>
+
+
+  <section style="text-align:center;">
+    <h2>📲 Contactez-moi directement par SMS</h2>
+    <a class="sms-button" href="sms:+14385227845?body=Bonjour%20Éclamobile%2C%20je%20souhaite%20prendre%20rendez-vous.">
+      Contactez moi
+    </a>
+  </section>
+
+
+  <div class="footer">
+    © Éclamobile – Tous droits réservés.
+  </div>
+</body>
+</html>
